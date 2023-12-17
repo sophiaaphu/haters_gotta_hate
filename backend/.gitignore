@@ -1,0 +1,49 @@
+# TensorFlow
+_pywrap_tensorflow_internal
+# Virtual environment
+/neg_comment_venv/
+
+# Checkpoint files
+model.ckpt*
+
+# TensorBoard logs
+logs/
+
+# IDE files
+.vscode/
+*.pyc
+
+# Flask related
+instance/
+webapp.db
+
+# Logs
+*.log
+
+# Cache and temporary files
+*.pyc
+*.pyo
+__pycache__/
+.cache/
+.cached/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+.local/
+
+# SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
+# Celery related
+celerybeat-schedule
+
+# System files
+.DS_Store
+Thumbs.db
