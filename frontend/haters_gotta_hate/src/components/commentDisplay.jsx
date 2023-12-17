@@ -16,7 +16,7 @@ function preventDefault(event) {
 export default function CommentDisplay() {
   const vid_id = useParams();
   //console.log(vid_id.id);
-  const api_url = 'http://127.0.0.1:5000/process_comments/' + vid_id.id ;
+  const api_url = 'https://haters-gotta-hate-backend-7q4zta3t5q-uc.a.run.app/process_comments/' + vid_id.id ;
   const [comments, setComments] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
