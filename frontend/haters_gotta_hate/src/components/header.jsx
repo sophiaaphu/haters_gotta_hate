@@ -28,7 +28,7 @@ function Header() {
             edge="start"
             color="inherit"
             aria-label="home"
-            sx={{ mr: 2, marginLeft:10 }}
+            sx={{ mr: 2, marginLeft:{xs:2, sm:5, md:10} }}
           >
             <QuestionAnswerIcon/>
           </IconButton>
