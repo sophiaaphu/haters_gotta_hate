@@ -22,7 +22,7 @@ function Home() {
   };
   return (
     <div>
-      <Box sx = {{ textAlign: "center", marginTop:{xs: 15, sm: 20, md:30} }} >
+      <Box sx = {{ textAlign: "center", marginTop:{xs: 20, md:30} }} >
         <Typography textAlign="center" fontWeight="bold" fontSize="3rem" sx = {{lineHeight:{xs:1.2, s:1.2}}}>
           The internet has <span style={{ color: '#B43757' }}>lots of negativity</span>.
         </Typography>
