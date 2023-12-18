@@ -23,7 +23,7 @@ function Home() {
   return (
     <div>
       <Box sx = {{ textAlign: "center", marginTop:30 }} >
-        <Typography textAlign="center" fontWeight="bold" fontSize="3rem" sx = {{lineHeight:{xs:1.4, s:1.4}}}>
+        <Typography textAlign="center" fontWeight="bold" fontSize="3rem" sx = {{lineHeight:{xs:1.2, s:1.2}}}>
           The internet has <span style={{ color: '#B43757' }}>lots of negativity</span>.
         </Typography>
         <Typography textAlign="center" fontSize="1.4rem" style={{ color: '#363636', marginBottom: 15}}>
