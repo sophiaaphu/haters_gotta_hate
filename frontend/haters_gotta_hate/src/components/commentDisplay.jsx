@@ -45,7 +45,7 @@ export default function CommentDisplay() {
   }
   return(
     <Container sx = {{marginTop:15}}>
-      <Typography textAlign="center" fontWeight="bold" fontSize="3rem">
+      <Typography textAlign="center" fontWeight="bold" fontSize="3rem" sx = {{lineHeight:{xs:1.2, s:1.2}}}>
         View Hate Comments <span style={{ color: '#B43757' }}>Here</span>,
       </Typography>
       {comments && (
